@@ -14,12 +14,20 @@ const fontSans = FontSans({
 
 export const metadata: Metadata = {
   title: 'DocSync',
-  description: 'Welcome to DocSync, the ultimate solution for seamless real-time document collaboration. DocSync empowers users to create, edit and share documents effortlessly, no matter where you are.'
+  description: `Welcome to DocSync, the ultimate solution for seamless real-time document collaboration. DocSync empowers users to create, edit, and share documents effortlessly, no matter where they are. With its intuitive interface and robust features, DocSync allows multiple users to work on the same document simultaneously, ensuring that everyone's contributions are captured in real time. `,
 }
 
-export default function RootLayout({ children }: {children : React.ReactNode}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <ClerkProvider appearance={{baseTheme: dark, variables:{colorPrimary: "#3371FF", fontSize: '16px'}}}>
+    <ClerkProvider
+      appearance={{
+        baseTheme: dark,
+        variables: { 
+          colorPrimary: "#3371FF" ,
+          fontSize: '16px'
+        },
+      }}
+    >
       <html lang="en" suppressHydrationWarning>
         <body
           className={cn(
@@ -29,7 +37,7 @@ export default function RootLayout({ children }: {children : React.ReactNode}) {
         >
           <Provider>
             {children}
-          </Provider>  
+          </Provider>
         </body>
       </html>
     </ClerkProvider>

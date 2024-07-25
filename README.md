@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+---
 
-First, run the development server:
+# DocSync
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Liveblocks](https://img.shields.io/badge/Liveblocks-4E4E4E?logo=liveblocks&logoColor=white)
+![Lexical Editor](https://img.shields.io/badge/Lexical_Editor-000000?logo=lexical&logoColor=white)
+![ShadCN](https://img.shields.io/badge/ShadCN-24292F?logo=shadow&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Welcome to DocSync, the ultimate solution for seamless real-time document collaboration. DocSync empowers users to create, edit, and share documents effortlessly, no matter where they are. With its intuitive interface and robust features, DocSync allows multiple users to work on the same document simultaneously, ensuring that everyone's contributions are captured in real time. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+### 🔐 Authentication
+- **Google Authentication**: Secure sign-in and session management through NextAuth, allowing users to authenticate using their google accounts.
 
-To learn more about Next.js, take a look at the following resources:
+### ✍️ Collaborative Text Editor
+- **Real-Time Collaboration**: Multiple users can edit the same document simultaneously with real-time updates, powered by Liveblocks and Lexical Editor.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📁 Document Management
+- **Create Documents**: Easily create new documents, which are automatically saved and listed for quick access.
+- **Delete Documents**: Users can delete documents they own.
+- **Share Documents**: Share documents via email or link, with customizable view/edit permissions.
+- **List Documents**: Display all documents owned or shared with the user, featuring search and sorting functionalities.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 💬 Comments
+- **Inline and General Comments**: Add comments directly in the text or general comments on the document.
+- **Threaded Discussions**: Engage in threaded discussions for more organized communication.
 
-## Deploy on Vercel
+### 👥 Active Collaborators
+- **Real-Time Presence Indicators**: Display active collaborators in the text editor with real-time presence indicators.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔔 Notifications
+- **User Notifications**: Notify users of document shares, new comments, and collaborator activities.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 📱 Responsive Design
+- **Cross-Device Compatibility**: Enjoy a fully responsive application that works seamlessly across all devices.
+
+## Technology Stack
+
+- **Next.js**: A powerful React framework for building server-side rendered applications.
+- **TypeScript**: A statically typed superset of JavaScript.
+- **Liveblocks**: Real-time collaboration infrastructure.
+- **Lexical Editor**: A text editor library for building rich text editors.
+- **ShadCN**: A design system for consistent UI.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+
+## Contact
+
+For any inquiries, please contact:
+- **Name**: [Satvik R Shetty](mailto:satvikrshetty423@gmail.com)
+- **LinkedIn**: [Satvik R Shetty](https://www.linkedin.com/in/satvik-r-shetty/)
+- **GitHub**: [satvik423](https://github.com/satvik423)
+
+---
+Thank you for checking out DocSync!
