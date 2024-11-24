@@ -49,6 +49,32 @@ Welcome to DocSync, the ultimate solution for seamless real-time document collab
 - **ShadCN**: A design system for consistent UI.
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/startPage.png)
+
+### Editor
+![Editor](screenshots/editorPage.png)
+
+### Sharing
+![Share](screenshots/sharePage.png)
+
+### Comments
+![Comment Screen](screenshots/commentScreen.png)
+
+### Collaboration
+![Collaboration](screenshots/collaborationPage.png) 
+
+### Notifications
+![Notification](screenshots/notificationPage.png)
+
+### Document deletion
+![Deletion](screenshots/deletionePage.png)
+
 ## Contact
 
 For any inquiries, please contact:
